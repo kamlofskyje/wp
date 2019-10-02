@@ -20,26 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
-	<script language="Javascript">
-<!-- Begin
-document.oncontextmenu = function(){return false}
-// End -->
-</script>
-<script language="Javascript">
-<!-- Begin
-function disableselect(e){
-return false
-}
-function reEnable(){
-return true
-}
-document.onselectstart=new Function ("return false")
-if (window.sidebar){
-document.onmousedown=disableselect
-document.onclick=reEnable
-}
-// End -->
-</script>
+
 </head>
 
 <body <?php body_class(); ?>>
